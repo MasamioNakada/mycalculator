@@ -33,10 +33,10 @@ func parsear(input string) int {
 /*
 	STRUCT
 */
-type calc struct{}
+type Calc struct{}
 
 // Metodo del STRUCT
-func (calc) operate(operators string, symbol string) int {
+func (Calc) Operate(operators string, symbol string) int {
 	// Convierte en una lista los valores que reciba en "operators" separados por el valor "symbol". Ejm: Recibe 2+2, lo transforma en [2 2]
 	inputSplit := strings.Split(operators, symbol)
 
