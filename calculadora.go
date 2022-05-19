@@ -9,7 +9,7 @@ import (
 )
 
 // Función que nos permite leer la entrada del usuario y devolver el valor que ha introducido
-func readInput() string {
+func ReadInput() string {
 	// Lee la entrada de un usaurio
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
